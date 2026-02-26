@@ -894,6 +894,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a13ve/proprietary/vendor/lib/libdeccfg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdeccfg.so \
     vendor/samsung/a13ve/proprietary/vendor/lib/libdecrypt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdecrypt.so \
     vendor/samsung/a13ve/proprietary/vendor/lib/libdk_vnd_service_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdk_vnd_service_core.so \
+    vendor/samsung/a13ve/proprietary/vendor/lib/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpframework.so \
     vendor/samsung/a13ve/proprietary/vendor/lib/libdre.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdre.so \
     vendor/samsung/a13ve/proprietary/vendor/lib/libdsms_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsms_vendor.so \
     vendor/samsung/a13ve/proprietary/vendor/lib/libdualcam_refocus_image.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdualcam_refocus_image.so \
