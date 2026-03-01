@@ -1438,7 +1438,6 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.security.fkeymaster-service \
     vendor.samsung.hardware.security.widevine.keyprov-service \
     vendor.samsung.hardware.sehradio_manifest_2_30 \
-    vendor.samsung.hardware.snap-default \
     vendor.samsung.hardware.thermal@1.0-manifest \
     vendor.samsung.hardware.tlc.iccc@1.0-manifest \
     vendor.samsung.hardware.tlc.kg@1.1-manifest \
