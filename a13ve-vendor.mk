@@ -12,7 +12,7 @@ ODM_MANIFEST_FILES += \
     vendor/samsung/a13ve/proprietary/odm/etc/vintf/manifest_hcesim.xml \
     vendor/samsung/a13ve/proprietary/odm/etc/vintf/manifest_hcesimese.xml \
 
-PRODUCT_COPY_FILES += 
+PRODUCT_COPY_FILES += \
     vendor/samsung/a13ve/proprietary/etc/audio_effects.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_effects.conf \
     vendor/samsung/a13ve/proprietary/etc/audio_effects_common.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_effects_common.conf \
     vendor/samsung/a13ve/proprietary/system_ext/etc/audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_configuration.xml \
