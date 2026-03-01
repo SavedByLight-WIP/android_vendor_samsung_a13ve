@@ -1,6 +1,4 @@
 service sec-camera-provider-4-0 /vendor/bin/hw/vendor.samsung.hardware.camera.provider@4.0-service
-    interface vendor.samsung.hardware.camera.provider@4.0::ISehCameraProvider legacy/0
-    interface vendor.mediatek.hardware.camera.isphal@1.0::IISPModule internal/0
     interface android.hardware.camera.provider@2.6::ICameraProvider legacy/0
     interface android.hardware.camera.provider@2.5::ICameraProvider legacy/0
     interface android.hardware.camera.provider@2.4::ICameraProvider legacy/0
