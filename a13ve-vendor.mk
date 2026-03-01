@@ -12,12 +12,9 @@ ODM_MANIFEST_FILES += \
     vendor/samsung/a13ve/proprietary/odm/etc/vintf/manifest_hcesim.xml \
     vendor/samsung/a13ve/proprietary/odm/etc/vintf/manifest_hcesimese.xml \
 
-PRODUCT_COPY_FILES += \
-    vendor/samsung/a13ve/proprietary/bin/charon:$(TARGET_COPY_OUT_SYSTEM)/bin/charon \
+PRODUCT_COPY_FILES += 
     vendor/samsung/a13ve/proprietary/etc/audio_effects.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_effects.conf \
     vendor/samsung/a13ve/proprietary/etc/audio_effects_common.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_effects_common.conf \
-    vendor/samsung/a13ve/proprietary/lib/libcharon.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcharon.so \
-    vendor/samsung/a13ve/proprietary/lib/libstrongswan.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstrongswan.so \
     vendor/samsung/a13ve/proprietary/system_ext/etc/audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_configuration.xml \
     vendor/samsung/a13ve/proprietary/system_ext/etc/audio_policy_engine_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_engine_configuration.xml \
     vendor/samsung/a13ve/proprietary/system_ext/etc/audio_policy_engine_default_stream_volumes.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_engine_default_stream_volumes.xml \
